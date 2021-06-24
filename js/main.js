@@ -22,11 +22,11 @@ function uygula(n) {
         baslangic = ($(n).html() - 1) * slide;
     }
     if($(n).html() == 1) {
-        $("body").css("background-image", "url(../images/lordOfTheRings.jpg)");
+        $("body").css("background-image", "url(images/lordOfTheRings.jpg)");
     } else if ($(n).html() == 2) {
-        $("body").css("background-image", "url(../images/harryPotter.jpg)");
+        $("body").css("background-image", "url(images/harryPotter.jpg)");
     } else {
-        $("body").css("background-image", "url(../images/xmen.jpg)");
+        $("body").css("background-image", "url(images/xmen.jpg)");
     }
     bitis = $(n).html() * slide;
     $(".slide-item").css("display", "none");
